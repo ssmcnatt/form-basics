@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <form method="GET" action="https://google.com">
+        <fieldset>
+            <legend>Basic Info</legend>
+            <label for="firstname">First Name: </label>
+            <input type="text" name-="firstname" id="firstname"><br>
+            <label>Email:
+                <input type="email" name="email" id="email"><br>
+            </label>
+        </fieldset>
+
+        <textarea name="comments" cols="30" rows="15" placeholder="Your comments here"></textarea><br>
+        <select name="langs" id="langs">
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">French</option>
+        </select>
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="female" id="female">
+        <label for="male">Male</label>
+        <input type="radio" name="male" id="male">
+        <br>
+        <input type="submit" id="submit">
+        <button>Submit</button>
+        <input type="reset">
+        <ul>
+            <li>Choose your interests:
+                <ul>
+                    <li>
+                <label for="pop-culture">Pop Culture</label>
+                <input type="checkbox" name="pop-culture" value="pop-culture">
+                <label for="entertainment">Entertainment</label>
+                <input type="checkbox" name="entertainment" value="entertainment">
+                <label for="sports">Sports</label>
+                <input type="checkbox" name="sports" value="sports">
+            </li>
+            </ul>
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
